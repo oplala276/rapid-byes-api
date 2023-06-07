@@ -32,7 +32,7 @@ const newSchema = new mongoose.Schema({
     }
 });
 
-const News = mongoose.model('News', newSchema);
+const news = mongoose.model('news', newSchema);
 
-export default News;
+export default news;
 
